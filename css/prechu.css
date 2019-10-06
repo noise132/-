@@ -1,0 +1,404 @@
+
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.header {
+    font-size: 0;
+    max-width: 1250px;
+    margin: 0 auto;
+    /*background-color: grey;*/
+}
+
+.header-container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.logo-container {
+    display: inline-block;
+    line-height: 5.5624rem;
+}
+
+
+.logo-prechu {
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.circle {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    font-size: 4rem; /*64px*/
+    line-height: 4.375rem; /*70px*/
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.prechu-text-logo {
+    display: inline-block;
+    font-family: 'Source sans pro', sans-serif;
+    font-size: 42px;
+    line-height: 5.5625rem;
+    font-weight: 400;
+    color: #000;
+    vertical-align: middle;
+}
+
+
+.nav-header {
+    vertical-align: middle;
+    display: inline-block;
+    width: calc(100% - 200px);
+    text-align: right;
+}
+
+.ul-header {
+    padding-left: 0;
+    list-style: none;
+    font-family: 'Source sans pro', sans-serif;
+}
+
+.ul-header li {
+    box-sizing: border-box;
+    height: 89px;
+    vertical-align: top;
+    display: inline-block;
+    padding: 0 9px;
+}
+
+.ul-header a {
+    line-height: 89px;
+    color: #6c6c6c;
+    font-size: 1.25rem; /*20px*/
+    letter-spacing: 0.083331rem; /*1.33333px*/
+    text-decoration: none;
+}
+
+.ul-header li:hover {
+    line-height: 86px;
+    box-sizing: border-box;
+    /*padding: 29px 0;*/
+    border-bottom: 3px solid #5094f2;
+}
+
+
+/*--------------------------------------------*/
+
+
+.banner {
+    font-size: 0;
+    /*max-width: 1250px;*/
+    margin: 0 auto;
+    background: url(../images/bg-banner.png)left top / cover no-repeat;
+    
+}
+
+
+.conteiner-baner {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+.fon-one-item {
+    display: inline-block;
+    width: 50%;
+}
+
+.fon-two-item {
+    vertical-align: top;
+    display: inline-block;
+    width: 50%;
+    padding: 107px 0;
+}
+
+.image-conteiner {
+    padding: 5.2758%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 345px;
+}
+
+.item-left {
+    width: 100%;
+}
+
+.item-right {
+    padding: 30px;
+    word-wrap: break-word;
+}
+
+
+.item-right h2 {
+    line-height: 2.75rem; /*1.04762em*/ /*44px*/
+    font-size: 2.625rem;  /*42px*/
+    font-weight: 400;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.item-right p {
+    margin-top: 1.954%; /*10px*/ 
+    font-size: 1.625rem; /*26px*/
+    line-height: 2.75rem; /*44px*/
+    font-weight: 400;
+    color: white;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.button-container {
+    padding-top: 6.446%; /*33px*/
+    padding-left: 2.735%; /*14px*/
+}
+
+.button {
+    cursor: pointer;
+    padding: 2.503% 2.05%; /*9px 11px*/
+    border-style: none;
+    background-color: #5094f2;
+    border-radius: 3px;
+    font-size: 1.375rem; /*22px*/
+    line-height: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+
+
+.btn-img {
+    vertical-align: middle;
+    width: 23px;
+    padding-right: 10px; 
+}
+
+.sun {
+    line-height: 23px;
+    vertical-align: middle;
+}
+
+
+/*--------------------------------------------*/
+
+
+.card-container {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 30px 0;
+    font-size: 0;
+}
+
+.card-wrapper {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.card {
+    display: inline-block;
+    margin-right: 54px;
+} 
+
+.card:nth-last-child(1) {
+    margin-right: 0;
+}
+
+
+
+.container-icon {
+	box-sizing: border-box;
+    width: 305px;
+    padding: 26px;
+}
+
+.pancil-shape-icon {
+	margin: 0 auto;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background-color: #5094f2;
+    text-align: center;
+}
+
+.pencil {
+    padding: 38.5px 53.5px;
+    width: 78px;
+}
+
+
+
+.card-text {
+	box-sizing: border-box;
+    width: 305px;
+    text-align: center;
+    padding: 0 26px 26px;
+}
+
+.card-text h3 {
+    color: #5094f2;
+	margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Myriad Pro', sans-serif;
+}
+
+.card-text p {
+    color: #909090;
+	margin: 0;
+	font-size: 14px;
+	font-family: 'Myriad Pro', sans-serif;
+}
+
+
+
+.display-shape-icon {
+    margin: 0 auto;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background-color: #d94748;
+    text-align: center;
+}
+
+.display {
+    padding: 52px 45px;
+    width: 95px;
+}
+
+
+
+.shop-shape-icon {
+    margin: 0 auto;
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background-color: #ebbb11;
+    text-align: center;
+}
+
+
+.shop {
+    padding: 47.5px 43.5px;
+    width: 98px;
+}
+
+
+/*--------------------------------------------*/
+
+
+.shoping-cart {
+    /*background-color: grey;*/
+    max-width: 1250px;
+    margin: 0 auto;
+    font-size: 0;   
+}
+
+
+
+.conteiner-sc {
+    /*background-color: #c4c4c4;*/
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.conteiner-sc-imgside {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.content-sc-imgside {
+    padding: 30px 0;   
+}
+
+
+
+.text-sc-imgside h3 {
+    margin: 0;
+    text-align: center;
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 400;
+    font-family: 'Myriad pro', sans-serif;
+    color: #6f7173;
+}
+
+.img-sc-imgside {
+    padding: 30px 0;
+    text-decoration: none;
+    text-align: center;
+}
+
+.img-sc img {
+    width: 371px;
+}
+
+
+
+
+.conteiner-sc-text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.text-sc {
+    padding: 60px 30px 80px 0;
+}
+
+.text-sc h3 {
+    margin: 0;
+    font-size: 26px;
+    font-weight: 400;
+    color: #6f7173;
+    font-family: 'Myriad pro', sans-serif;
+}
+
+.text-sc p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #909090;
+    font-family: 'Myriad pro', sans-serif;
+    padding-top: 15px;
+}
+
+
+/*--------------------------------------------*/
+
+
+.footer {
+    font-size: 0;
+    text-align: center;
+    padding: 40px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.Copyright {
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Myriad pro', sans-serif;
+    color: #909090;
+}
